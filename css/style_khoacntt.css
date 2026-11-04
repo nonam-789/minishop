@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:pink;
+    font-family: Arial;
+}
+header{
+    background-color: blue;
+    color:aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+main{
+    width: 80%;
+    /*căn giữa theo chiều ngang so với phần tử cha*/
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+section {
+    margin-bottom: 40px;
+}
+program-list {
+    list-style-type: none;
+}
+.program-list li {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(176, 214, 100);
+    color: white;
+    display: inline-block;
+}
+.images img{
+    width: 200px;
+    border: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline;
+}
+footer{
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.images-hide{
+    visibility: hidden;
+}
+tuyensinh th,
+.tuyensinh td {
+    border: 1px solid;
+    padding: 5px;
+}
+.tuyensinh thead {
+    background-color: rgb(94, 170, 233b);
+    color: black;
+}
+.tuyensinh tbody tr:ntn-child(odd) {
+    background-color: rgb(132, 194, 233);
+}
+.tuyensinh tbody tr:ntn-child(even) {
+    background-color: rgb(65, 124, 173);
+}
+.tuyensinh tbody tr:hover {
+    background-color: rgb(24, 88, 131);
+}
+.tuyensinh tbody tr:hover {
+    background-color: rgb(176, 214, 100);
+}
+.tuyensinh th:nth-child(1),
+.tuyensinh td:nth-child(1) {
+    text-align: center;
+}
+.tuyensinh td:nth-child(4) {
+    color: rgb(65, 124, 173);
+}
+.tuyensinh table {
+width: 100%;
+border-collapse: collapse;
+}
+th,td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.tuyensinh thead {
+background-color: aqua;
+color: rgb(0, 0, 0);
+}
+.tuyensinh tbody tr:nth-child(odd) 
+{
+background-color: rgb(34, 121, 235);
+}
+.tuyensinh tbody tr:nth-child(even) 
+{
+background-color:rgb(8, 117, 4)
+}
+.tuyensinh tbody tr:hover 
+{
+background-color:rgb(255, 255, 255)
+}
+.tuyensinh th:nth-child(1),
+.tuyensinh td:nth-child(1) 
+{
+text-align:center
+}
+.tuyensinh td:nth-child(4) 
+{
+color:aquamarine
+}

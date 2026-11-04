@@ -1,0 +1,30 @@
+.title{
+    color: #0e4b85;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    color: rgb(235, 164, 32);
+    text-decoration: none;
+}
+.product{
+    width: 250px;
+    background-color:rgb(236, 215, 215) ;
+}
+.price{
+    color: #b4454b ;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(88, 168, 206);
+    color: rgb(9, 52, 117);
+    text-align: center;
+}
+.banner{
+    background-image: url(../images/rua3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

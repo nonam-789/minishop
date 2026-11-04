@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>THÔNG TIN KHÁCH HÀNG</title>
+    </head>
+    <BODY>
+        <form action="" >
+            <fieldset>
+                <legend>Thông tin cá nhân</legend>
+                <label for="fullname">Họ và tên:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên">
+                <br><br>
+                <label for="phone">Số điện thoại:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại">
+                <br><br>
+                <label for="addess">Địa chỉ:</label>
+                <input type="text" id="addess" name="address" placeholder="Nhập địa chỉ giao hàng">
+                <br><br>
+                <label for="city">Tỉnh/Thành phố</label>
+                <select name="text" id="city" name="city">
+                    <option value="">--Chọn tỉnh/thành phố--</option>
+                    <option value="HCM">Hồ Chí Minh</option>
+                    <option value="DN">Đà Nẵng</option>
+                    <option value="HN">Hà Nội</option>
+                </select>
+            </fieldset>
+            <br><br><br>
+                <fieldset>
+                    <legend>Phương thức thanh toán</legend>
+                    <input type="radio" id="cod" name="payment" value="cod">
+                    <label for="cod">Thanh toán khi nhận hàng</label>
+                    <br>
+                    <input type="radio" id="bank" name="payment" value="bank">
+                    <label for="bank">Chuyển khoản ngân hàng</label>
+                    <br>
+                    <input type="radio" id="wallet" name="payment" value="wallet">
+                    <label for="wallet">Ví điện tử</label>
+                </fieldset>
+                <br><br><br>
+                <fieldset>
+                    <legend>Dịch vụ</legend>
+                    <input type="checkbox" id="invoice" name="service" value="invoice">
+                    <label for="invoice">Xuất hóa đơn</label>
+                    <br>
+                    <input type="checkbox" id="gift" name="service" value="gift">
+                    <label for="cod">Gói quà</label>
+                    <br>
+                    <input type="checkbox" id="fast" name="service" value="fast">
+                    <label for="cod">Giao hàng nhanh</label>
+                </fieldset>
+                <br><br><br>
+                <fieldset>
+                    <legend>Ghi chú</legend>
+                    <label for="note">Ghi chú đơn hàng</label>
+                    <br>
+                    <textarea name="note" id="note" rows="4" cols="40" placeholder="Nhập ghi chú đơn hàng..."></textarea>
+                </fieldset>
+                <br><br>
+                <fieldset>
+                    <input type="submit" value="Đặt hàng">
+                    <input type="reset" value="Nhập lại">
+                </fieldset>
+                </form>
+                </BODY>
+</html>
+
+
+                

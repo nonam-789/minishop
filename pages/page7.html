@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TÌM KIẾM SẢN PHẨM</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Thông tin sản phẩm</legend>
+            <label for="keyword">từ khóa:</label>
+            <input type="text" id="keyword" name="keyword" placeholder="Nhập tên sản phẩm">
+            <br>
+            <label for="category">Danh mục sản phẩm:</label>
+            <select name="category" id="category">
+                <option value="">--Chọn danh mục</option>
+                <optgroup label="Phụ kiện máy tính">
+                    <option value="mouse">Chuột</option>
+                    <option value="keyboard">Bàn phím</option>
+                    <option value="headphone">Tai nghe</option>
+                </optgroup>
+                <optgroup label="Thiết bị mạng">
+                    <option value="network-dvice">Thiết bị mạng</option>
+                    <option value="router-wifi">Router wifi</option>
+                    <option value="wifi-extender">Bộ kích sóng wifi</option>
+                    <option value="network-switch">Switch mạng</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label for="price">Mức giá</label>
+            <select name="price" id="price">
+                <option value="">--Chọn mức giá--</option>
+                <option value="under-500k">Dưới 500.000</option>
+                <option value="500k-1m">500.000-1.000.000</option>
+                <option value="over-1m">Trên 1.000.000</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Tìm kiếm">
+            <input type="reset" value="Nhập lại">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
